@@ -97,4 +97,10 @@ describe("Party Horn Tests", () => {
       expect($el).to.have.prop("disabled", true);
     });
   });
+
+  it("Error is shown when a number outside of the given range is inputted for the volume textbox input", () => {
+    cy.get("#volume-number").clear().type("120");
+    cy.get("#honk-btn").click();
+    cy.get("input:invalid").should("have.length", 1);
+  });
 });
