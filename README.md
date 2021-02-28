@@ -1,4 +1,3 @@
-# Lab8
+Name: David Jeong
 
-Cypress and Jest weren't working too well together
-so we've separated the two out in different parts
+PID: A15810226
