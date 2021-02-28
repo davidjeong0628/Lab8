@@ -1,8 +1,8 @@
 {
-  "name": "Part1-Jest",
+  "name": "Part2-Cypress",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "custom-tests.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "cypress": "^6.5.0"
   }
 }
